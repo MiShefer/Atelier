@@ -22,7 +22,7 @@ function draw() {
 /// SOURCED CODE : https://p5js.org/reference/#/p5/mouseMoved
 function mouseMoved() {
   value = value + 3;
-  if (value > 255) {
+  if (value > 150) {
     value = 0;
   }
 }
